@@ -1,54 +1,55 @@
 # Stakeholder Map
 
-## Developer Experience Lead
+## Stakeholder 1
 
 Needs:
 
-- Credible AI adoption story
-- Evidence that developers are gaining practical agent workflow proficiency
-- Clear training and enablement loop
+- `[Need]`
+- `[Need]`
+- `[Need]`
 
 Likely concerns:
 
-- Platform work may slow visible adoption
-- Developers may confuse prototype success with production readiness
+- `[Concern]`
+- `[Concern]`
 
-## Platform Engineering Lead
+Preferred update style:
+
+- `[Format, cadence, level of detail, or decision style]`
+
+## Stakeholder 2
 
 Needs:
 
-- Evidence that the self-service path works before production rollout
-- Clear ownership and operational metadata for every app
-- A controlled validation environment
+- `[Need]`
+- `[Need]`
+- `[Need]`
 
 Likely concerns:
 
-- Vibe-coded apps may create unmanaged platform support load
-- Agent-generated deployment plans may miss reliability requirements
+- `[Concern]`
+- `[Concern]`
 
-## Security Partner
+Preferred update style:
+
+- `[Format, cadence, level of detail, or decision style]`
+
+## Stakeholder 3
 
 Needs:
 
-- Policy boundaries for generated apps
-- Reviewable ownership, data, and access metadata
-- A clear distinction between prototype and production workload classes
+- `[Need]`
+- `[Need]`
+- `[Need]`
 
 Likely concerns:
 
-- Agents may accelerate risky deployment behavior if guardrails are unclear
+- `[Concern]`
+- `[Concern]`
 
-## Pilot Developers
+Preferred update style:
 
-Needs:
-
-- Fast setup
-- Agent-readable instructions
-- Clear examples and troubleshooting paths
-
-Likely concerns:
-
-- Too much process will kill the value of vibe-coded apps
+- `[Format, cadence, level of detail, or decision style]`
 
 ## Related Context
 

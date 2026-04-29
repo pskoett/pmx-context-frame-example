@@ -4,8 +4,6 @@ This is a minimal example of a personal context stack for one product manager.
 
 It is a lightweight repo for keeping PM context in a shape that coding agents can read, update, and reason from.
 
-There is no app, no CLI, and no required SaaS connection. The repo is the context.
-
 ## Quick Start
 
 1. Clone or copy this repo.
