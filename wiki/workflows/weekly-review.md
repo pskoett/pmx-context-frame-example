@@ -2,7 +2,9 @@
 
 ## Purpose
 
-Keep the context stack current enough that an agent can reason from it.
+Define the recurring weekly review context for keeping the stack current enough that an agent can reason from it.
+
+This page is durable operating context, not the agent runbook. Agent execution rules live in `.agents/skills/pm-context-stack/SKILL.md`.
 
 ## Inputs
 
@@ -13,14 +15,13 @@ Keep the context stack current enough that an agent can reason from it.
 - new material in `inbox/`
 - new source captures in `raw/`
 
-## Steps
+## Context Rules
 
-1. Scan new source material.
-2. Update the smallest relevant wiki page.
-3. Add or revise decisions and assumptions.
-4. Check whether OKRs or roadmap sequencing changed.
-5. Append a note to `wiki/log.md`.
-6. Draft any needed output in `artifacts/`.
+- Treat new `inbox/` and `raw/` material as source material, not durable context.
+- Update the smallest relevant wiki page when new durable context is found.
+- Add or revise decisions and assumptions before changing roadmap or OKR text.
+- Append the context delta to `wiki/log.md` after meaningful changes.
+- Draft generated weekly outputs in `artifacts/` when a file output is needed.
 
 ## Output
 

@@ -2,7 +2,9 @@
 
 ## Purpose
 
-Generate a stakeholder-specific update from the context stack instead of writing from scratch.
+Describe the standing shape of stakeholder updates for this context stack.
+
+This page is durable operating context, not the agent runbook. Agent execution rules live in `.agents/skills/pm-context-stack/SKILL.md`.
 
 ## Inputs
 
@@ -12,13 +14,13 @@ Generate a stakeholder-specific update from the context stack instead of writing
 - [[stakeholder-map]]
 - [[decision-log]]
 
-## Steps
+## Context Rules
 
-1. Identify the stakeholder and their needs from the stakeholder map.
-2. Pull only the relevant OKRs, roadmap items, assumptions, and decisions.
-3. Separate facts from asks.
-4. Make the tradeoff explicit.
-5. Save the draft in `artifacts/`.
+- Tailor the update to the stakeholder's needs in [[stakeholder-map]].
+- Include only relevant OKRs, roadmap items, assumptions, decisions, and risks.
+- Separate facts from asks.
+- Make tradeoffs explicit when requesting a decision or support.
+- Save generated drafts in `artifacts/` when a file output is needed.
 
 ## Output Shape
 

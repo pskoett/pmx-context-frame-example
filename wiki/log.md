@@ -1,5 +1,9 @@
 # Context Log
 
+## 2026-05-08
+
+- Reframed workflow pages as durable operating context, with agent execution rules remaining in `.agents/skills/pm-context-stack/SKILL.md`.
+
 ## 2026-04-29
 
 - Created the example PM context stack.
