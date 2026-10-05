@@ -19,6 +19,8 @@ This page is durable operating context, not the agent runbook. Agent execution r
 - Tailor the update to the stakeholder's needs in [[stakeholder-map]].
 - Include only relevant OKRs, roadmap items, assumptions, decisions, and risks.
 - Separate facts from asks.
+- Disclose historical, unmeasured, unavailable, or partially verified evidence.
+- Use current maintained pointers and source dates; copied instructions are not fresh outcomes.
 - Make tradeoffs explicit when requesting a decision or support.
 - Save generated drafts in `artifacts/` when a file output is needed.
 

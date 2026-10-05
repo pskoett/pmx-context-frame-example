@@ -18,9 +18,15 @@ Context:
 Options considered:
 Reasoning:
 Expected consequences:
+Accountable owner:
+Decision authority:
+Last validated and checked evidence:
 Review trigger:
 Sources:
 ```
+
+Keep historical dates and supersession links. A copied entry or file edit is
+not independent validation; see [[wiki-system]].
 
 ## Related Context
 

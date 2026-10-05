@@ -39,6 +39,15 @@
 
 ## Sources
 
+These paths are source-template examples, not verification of the product claims.
+
 - `raw/docs/context-dump-template.md`
 - `raw/slack/thread-capture-template.md`
 - `raw/tickets/ticket-summary-template.md`
+
+## Evidence Review
+
+- Accountable owner: `[Person or role, or unknown]`
+- Last validated: `[Actual check date, or not yet checked]`
+- Evidence and scope: `[Authority, dated sources and claims checked]`
+- Next check: `[Review point or invalidating event]`

@@ -22,6 +22,11 @@ This page is durable operating context, not the agent runbook. Agent execution r
 - Add or revise decisions and assumptions before changing roadmap or OKR text.
 - Append the context delta to `wiki/log.md` after meaningful changes.
 - Draft generated weekly outputs in `artifacts/` when a file output is needed.
+- Follow [[wiki-system]] for authority, evidence dates, accountable owners and review triggers.
+- Review overdue or missing evidence as uncertainty, not proof a claim is false.
+- Revalidate observed ownership handoffs and known dependent claims before relying on them.
+- Preserve sources, original dates and unresolved checks; no edit or index rebuild proves freshness.
+- Distinguish audit-only proposals from authorized repairs. Weekly cadence here is guidance, not an installed schedule.
 
 ## Output
 
@@ -31,3 +36,4 @@ A short weekly context delta:
 - what matters
 - what needs a decision
 - what should be communicated
+- what was actually checked, what remains unresolved, and which reviews need an accountable owner

@@ -26,6 +26,13 @@
 - `[Known uncertainty]`
 - `[Potential stakeholder tension]`
 
+## Evidence Review
+
+- Accountable owner: `[Person or role, or unknown]`
+- Last validated: `[Actual check date, or not yet checked]`
+- Evidence and scope: `[Sources and sequencing claims checked]`
+- Next check: `[Decision, dependency or ownership change, or review point]`
+
 ## Related Context
 
 - [[okrs]]
