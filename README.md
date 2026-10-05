@@ -4,6 +4,10 @@ This is a minimal example of a personal context stack for one product manager.
 
 It is a lightweight repo for keeping PM context in a shape that coding agents can read, update, and reason from.
 
+This is a wiki example, not a plugin distribution. It requires no plugin, MCP
+server, package install, or scheduler. The bracketed content is a template, not
+verified product knowledge. Replace it with your own context and sources.
+
 ## Quick Start
 
 1. Clone or copy this repo.
@@ -23,7 +27,12 @@ Start an agent session by asking it to read:
 1. `AGENTS.md`
 2. `.agents/skills/pm-context-stack/SKILL.md`
 3. `wiki/index.md`
-4. `wiki/log.md`
+4. the newest relevant dated entries in `wiki/log.md`, not the whole history
+5. the relevant wiki page and its supporting sources
+
+Keep first reads bounded to the relevant section. If a search index is used,
+treat snippets as leads and inspect the current file before making claims.
+Do not keep querying a confirmed empty, foreign, or stale retrieval route.
 
 Then ask for the work you need:
 
@@ -47,7 +56,8 @@ The repo has four simple layers:
 - raw source captures in `raw/`
 - an intake folder in `inbox/`
 - generated working outputs in `artifacts/`
-- one dedicated agent skill in `.agents/skills/pm-context-stack/`
+
+One dedicated Markdown instruction skill lives in `.agents/skills/pm-context-stack/`.
 
 The wiki is the maintained memory. Raw files are provenance. Inbox is intake. Artifacts are outputs.
 
@@ -61,6 +71,7 @@ README.md
 wiki/
   index.md
   log.md
+  wiki-system.md
   product-brief.md
   okrs.md
   roadmap.md
@@ -106,5 +117,21 @@ Keep one durable object in one place. Link related pages with `[[wikilinks]]`.
 ## Maintenance Rule
 
 Keep the wiki current enough that an agent can reason from it. Keep the raw files available enough that an agent can check where claims came from.
+
+Follow [the wiki operating guidance](wiki/wiki-system.md) for evidence, owners,
+review triggers, conflicts, and historical context. A file edit or rebuilt
+search index does not validate a claim. Unknown ownership and missing evidence
+stay explicit; old knowledge is reviewed, not automatically deleted.
+
+For a review without changes, ask:
+
+```text
+Audit this wiki for evidence, ownership, stale current-context pointers, and
+broken links. Do not edit files or reset review dates. Report proposed repairs.
+```
+
+Weekly review is a suggested practice, not an installed automation. Configure
+any schedule separately in your own tool, with explicit permissions. Copying
+this repository does not schedule work or authorize publication.
 
 The folder is the product memory. The artifacts are downstream.
